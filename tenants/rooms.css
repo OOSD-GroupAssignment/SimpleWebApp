@@ -1,0 +1,52 @@
+#myform input[type=text], select {
+  width: 70%;
+  padding: 10px 5px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+#myform input[type=number], select {
+  width: 70%;
+  padding: 10px 5px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.imp {
+  width: 70%;
+  padding: 10px 5px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+#myform input[type=submit] {
+  width: 50%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 5px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+#myform input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+#toto {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border: 1px solid black;
+  width: 50%;
+}

@@ -1,0 +1,23 @@
+#tenants {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#tenants td, #tenants th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#tenants tr:nth-child(even){background-color: #f2f2f2;}
+
+#tenants tr:hover {background-color: #ddd;}
+
+#tenants th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #fff8dc;
+  color: black;
+  text-decoration-color: black;
+}
