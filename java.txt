@@ -1,0 +1,60 @@
+
+////interface
+
+
+package assignment;
+
+import java.util.Scanner;
+
+public interface raj {
+    public void sum();
+    public void multiplication();
+
+}
+
+
+class ommy implements raj{
+    public void sum(int a,int b){
+        double sum=a+b;
+        System.out.println("the sum is" +sum);
+    }
+
+    @Override
+    public void sum() {
+
+    }
+
+public void multiplication(int b ,int c){
+    double multi=c*b;
+    System.out.println("the product is" +multi);
+}
+
+
+
+    @Override
+    public void multiplication() {
+
+    }
+
+    public static void main(String[] args) {
+        System.out.println("enter a");
+        Scanner denis = new Scanner(System.in);
+        int a=denis.nextInt();
+
+        System.out.println("enter b");
+int b=denis.nextInt();
+
+        System.out.println("enter c");
+        int c=denis.nextInt();
+
+
+
+
+        ommy sima =new ommy();
+        sima.multiplication(b,c);
+        sima.sum(a,b);
+
+    }
+
+
+}
